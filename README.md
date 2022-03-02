@@ -3,8 +3,9 @@
   
 ### Object Detection이 무엇인가?  
 <img src = "https://kr.mathworks.com/discovery/object-detection/_jcr_content/mainParsys3/discoverysubsection/mainParsys3/image.adapt.full.medium.jpg/1639059373547.jpg">  
-- 위 그림에서 왼쪽은 원본 이미지, 오른쪽은 object detection 알고리즘을 통과한 결과물이다  
-- 즉, object detection은 말 그대로 이미지에서 object가 어디에 있는지 찾아내 bounding box를 그려준다  
+
+- 위 그림에서 왼쪽은 원본 이미지, 오른쪽은 object detection 알고리즘을 통과한 결과물이다    
+- 즉, object detection은 말 그대로 이미지에서 object가 어디에 있는지 찾아내 bounding box를 그려준다    
 
 ### Object Detection의 활용 사례  
 - **자율 주행 자동차**  
