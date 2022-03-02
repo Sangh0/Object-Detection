@@ -9,7 +9,7 @@
 ### Object Detection의 활용 사례  
 - **자율 주행 자동차**  
 
-<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ922-5OtqK8OQZ2TTdabF40tDzBkqlW-lXKVLjCrlM9I68q_FoOq6M3BoD_ruHt8eV1P4&usqp=CAU">  
+<img src = "https://blog.kakaocdn.net/dn/bBxjO6/btqAMka889E/EeGZKbfuKwgJKcwJjk0p20/img.jpg">  
 
 - 자율 주행 자동차에서 실시간으로 사물을 인식해 안전하게 자율 주행할 수 있도록 도와준다
 
