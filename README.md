@@ -21,4 +21,4 @@
 - CCTV에서 Object Detection을 적용해 특정 시간대에 어떤 사람이 얼마나 다니는지, 
 - 차량 통행량은 얼마나 되는지 등을 파악할 수 있다
 
-- 이외에도 다양한 분야에서 Object Detection을 적용할 
+- 이외에도 다양한 분야에서 Object Detection을 적용할 수 있다
