@@ -12,7 +12,7 @@
 
 <img src = "https://blog.kakaocdn.net/dn/bBxjO6/btqAMka889E/EeGZKbfuKwgJKcwJjk0p20/img.jpg">  
 
-- 자율 주행 자동차에서 실시간으로 사물을 인식해 안전하게 자율 주행할 수 있도록 도와준다
+- 실시간으로 주변의 사물을 인식해 안전하게 자율 주행할 수 있도록 도와준다
 
 #### CCTV
 
