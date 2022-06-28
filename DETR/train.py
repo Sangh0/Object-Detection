@@ -12,7 +12,7 @@ from torchscheduler import PolynomialLRDecay
 from torchcallback import CheckPoint, EarlyStopping
 from models.detr import DETR
 from models.matcher import *
-from dataset import ObjectDetectionDataset
+from dataset.dataset import ObjectDetectionDataset
 
 device = torch.device('cuda')
 
@@ -53,7 +53,7 @@ def _get_src_permutation_idx(indices):
     src_idx = torch.cat([src for (src, _) in indices])
     return batch_idx, src_idx
 
-logger = SummaryWriter(comment=experiment)
+logger = SummaryWriter()
 
 def validate_on_batch(model, 
                       validation_data,

@@ -43,7 +43,7 @@ def main(args):
     import torch.optim as optim
     from torch.utils.data import DataLoader
     
-    from dataset import ObjectDetectionDataset
+    from dataset.dataset import ObjectDetectionDataset
     from models.detr import DETR
     from models.matcher import (
         HungarianMatcher, 
