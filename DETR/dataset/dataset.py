@@ -30,11 +30,8 @@ import torchvision.transforms as transforms
 from torch.utils.data import Dataset, DataLoader
 import albumentations as A
 
-width = 1200
-height = 800
-
 class ObjectDetectionDataset(Dataset):
-    def __init__(self, path, subset, img_size, transforms_=None):
+    def __init__(self, path, subset, height, width, transforms_=None):
         super().__init__()
         assert subset in ('train', 'valid', 'test'), \
             f'unknown {subset} set'
@@ -47,7 +44,8 @@ class ObjectDetectionDataset(Dataset):
             f'The size of {self.image_files} and {self.anno_list} is different.'
         
         self.subset = subset
-        self.img_size = img_size
+        self.height = height
+        self.width = width
         self.transforms_ = transforms_
         self.totensor = transforms.Compose([
             transforms.ToTensor(),
@@ -73,7 +71,7 @@ class ObjectDetectionDataset(Dataset):
         
         self.train_augment = A.Compose([
             A.HorizontalFlip(),
-            A.Resize(height=height, width=width, p=1),
+            A.Resize(height=self.height, width=self.width, p=1),
         ],
             bbox_params=A.BboxParams(
                 format='yolo',  
@@ -83,7 +81,7 @@ class ObjectDetectionDataset(Dataset):
             )
         )
         self.valid_augment = A.Compose([
-            A.Resize(height=height, width=width, p=1),
+            A.Resize(height=self.height, width=self.width, p=1),
         ],
             bbox_params=A.BboxParams(
                 format='yolo',
@@ -134,23 +132,3 @@ class ObjectDetectionDataset(Dataset):
     
     def __len__(self):
         return len(self.image_files)
-
-if __name__ == '__main__':
-    from torch.utils.data import DataLoader
-
-    path = '###'
-    batch_size = 1
-    
-    train_loader = DataLoader(
-        ObjectDetectionDataset(path=path, subset='train', img_size=height),
-        batch_size=batch_size,
-        shuffle=True,
-        drop_last=True,
-    )
-
-    valid_loader = DataLoader(
-        ObjectDetectionDataset(path=path, subset='valid', img_size=height),
-        batch_size=batch_size,
-        shuffle=True,
-        drop_last=True,
-    )
