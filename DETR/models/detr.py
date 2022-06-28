@@ -56,8 +56,7 @@ class DETR(nn.Module):
         pos_emb_dim=512,
     ):
         super(DETR, self).__init__()
-        self.backbone = backbone if frozen_bn is not None else \
-            ResNet(resnet_type=backbone_type, pretrained=pretrained)
+        self.backbone = backbone
         self.position_encoding = PositionEncoding(n_dim=pos_emb_dim)
         self.transformer = Transformer()
         hidden_dim = self.transformer.embed_dim
