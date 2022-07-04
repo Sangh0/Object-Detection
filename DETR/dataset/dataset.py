@@ -41,7 +41,7 @@ class ObjectDetectionDataset(Dataset):
             for file in sorted(glob(path+'/annotation/'+subset+'/*.txt'))
         ]
         assert len(self.image_files) == len(self.anno_list), \
-            f'The size of {self.image_files} and {self.anno_list} is different.'
+            f'The size of {len(self.image_files)} and {len(self.anno_list)} is different.'
         
         self.subset = subset
         self.height = height
