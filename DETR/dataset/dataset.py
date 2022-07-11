@@ -56,7 +56,7 @@ class ObjectDetectionDataset(Dataset):
             # format: str
                 - 1. pascal_voc : (xmin, ymin, xmax, ymax) with integer coordinates
                 - 2. albumentations : (xmin, ymin, xmax, ymax) with normalized coordinates
-                - 3. coco : (xmin, ymin, xmax, ymax) with integer coordinates
+                - 3. coco : (xmin, ymin, width, height) with integer coordinates
                 - 4. yolo : (xcenter, ycenter, width, height) with normalized coordinates
         
             # min_area: integer in [0,255]
