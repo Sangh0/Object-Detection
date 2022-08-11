@@ -1,4 +1,4 @@
-# Implementation paper related to Object Detection
+# Implement and Review paper related to Object Detection
   
 ### What is Object Detection?  
 <img src = "https://kr.mathworks.com/discovery/object-detection/_jcr_content/mainParsys3/discoverysubsection/mainParsys3/image.adapt.full.medium.jpg/1639059373547.jpg">  
