@@ -1,24 +1,22 @@
-# Object Detection
-## Object Detection과 관련된 논문을 구현  
+# Implementation paper related to Object Detection
   
-### Object Detection이 무엇인가?  
+### What is Object Detection?  
 <img src = "https://kr.mathworks.com/discovery/object-detection/_jcr_content/mainParsys3/discoverysubsection/mainParsys3/image.adapt.full.medium.jpg/1639059373547.jpg">  
 
-- 위 그림에서 왼쪽은 원본 이미지, 오른쪽은 object detection 알고리즘을 통과한 결과물이다    
-- 즉, object detection은 이미지에서 object가 어디에 있는지 찾아내 bounding box를 그려주고 object의 class까지 분류를 해준다   
+- Object Detection is a task that locates objects and classify their classes
 
-### Object Detection의 활용 사례  
-#### 자율 주행 자동차   
 
-<img src = "https://blog.kakaocdn.net/dn/bBxjO6/btqAMka889E/EeGZKbfuKwgJKcwJjk0p20/img.jpg">  
+### Application of Object Detection  
+#### Self-driving and ADAS
 
-- 실시간으로 주변의 사물을 인식해 안전하게 자율 주행할 수 있도록 도와준다
+<img src = "https://anolyticshome.files.wordpress.com/2020/09/maxresdefault-6.jpg" width=800>  
 
-#### CCTV
+#### CCTV Surveillance
 
-<img src = "https://miro.medium.com/max/624/1*vnt4DlXUo_oYYYbtQu9qXw.png">  
+<img src = "https://i.ytimg.com/vi/md0aqbXlAyc/maxresdefault.jpg" width=800>  
 
-- CCTV에서 Object Detection을 적용해 특정 시간대에 어떤 사람이 얼마나 다니는지, 
-- 차량 통행량은 얼마나 되는지 등을 파악할 수 있다
+#### OCR  
 
-- 이외에도 다양한 분야에서 Object Detection을 적용할 수 있다
+<img src = "https://miro.medium.com/max/1400/1*-qja367LABIs6dTJmImOGg.jpeg" width=800>
+
+- source : [self-driving cars](https://anolyticshome.files.wordpress.com), [cctv](https://i.ytimg.com), [ocr](https://miro.medium.com)
