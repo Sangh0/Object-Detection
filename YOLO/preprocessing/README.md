@@ -30,24 +30,24 @@ path: ./obstacle_detection/dataset/
 ├── ...
 ```
 
-**VOC to YOLO format converter** [code](https://github.com/Sangh0/Obstacle-Detection/blob/main/preprocessing/voc2yolo_converter.py)
+**VOC to YOLO format converter** [code](https://github.com/Sangh0/Object-Detection/blob/main/YOLO/preprocessing/voc2yolo_converter.py)
 
 ```
 $ python3 voc2yolo_converter.py --path {data directory}
 ```
   
-**VOC to COCO format converter** [code](https://github.com/Sangh0/Obstacle-Detection/blob/main/preprocessing/voc2coco_converter.py) 
+**VOC to COCO format converter** [code](https://github.com/Sangh0/Object-Detection/blob/main/YOLO/preprocessing/voc2coco_converter.py) 
 
 ```
 $ python3 voc2coco_converter.py --path {data directory}
 ```
 
-**check the balance of classes** [code](https://github.com/Sangh0/Obstacle-Detection/blob/main/preprocessing/class_count.py)
+**check the balance of classes** [code](https://github.com/Sangh0/Object-Detection/blob/main/YOLO/preprocessing/class_count.py)
 ```
 $ python3 class_count.py --folder_category {'large' or 'detail'} --path {data directory} --save_file_name {csv file name}
 ```
 
-**Generate new labels with ignore classes** [code](https://github.com/Sangh0/Obstacle-Detection/blob/main/preprocessing/create_ignore_class.py)
+**Generate new labels with ignore classes** [code](https://github.com/Sangh0/Object-Detection/blob/main/YOLO/preprocessing/create_ignore_class.py)
 ```
 $ python3 create_ignore_class.py --path {original directory} --new_folder_name {new folder name} --ignore_classes {a list containing of ignore classes}
 ```
