@@ -19,7 +19,7 @@ $$DFL\left(S_i, S_{i+1}\right)=-\left(\left(y_{i+1}-y\right)\log\left(S_i\right)
 
 **Generalized Focal Loss**  
 - general form:  
-$$\mathcal{L} = \frac{1}{N_{pos}}\sum_z \mathcal{L_Q} + \frac{1}{N_{pos}} \sum_z \textbf{1}_{\left\{c_z^*>0\right\}}\left(\lambda_0 \mathcal{L_B} + \lambda_1 \mathcal{L_D}\right)$$  
+$$\mathcal{L} = \frac{1}{N_{pos}}\sum_z \mathcal{L_Q} + \frac{1}{N_{pos}} \sum_z \textbf{1} \left(\lambda_0 \mathcal{L_B} + \lambda_1 \mathcal{L_D}\right)$$  
 
     - where $\mathcal{L}_Q$ is Quality focal loss and $\mathcal{L}_D$ is Distribution Focal Loss  
-    - Typically, $\mathcal{L}_B$ denotes the bounding box regression loss like GIoU and CIoU Loss
+    - Typically, $\mathcal{L}_B$ denotes the bounding box regression loss like GIoU and CIoU Loss _{\left\{c_z^*>0\right\}}
