@@ -19,6 +19,7 @@ $$DFL\left(S_i, S_{i+1}\right)=-\left(\left(y_{i+1}-y\right)\log\left(S_i\right)
 
 **Generalized Focal Loss**  
 - form:  
+$$\mathcal{L} = \frac{1}{N_{pos}}\sum_z \mathcal{L}_Q + \frac{1}{N_{pos}} \sum_z \textbf{1}_{\left{\right}}$$
 
 $$\mathcal{L} = \frac{1}{N_{pos}}\sum_z L_Q+\frac{1}{N_{pos}}\sum_z \textbf{1}_{\left\{ c_z^*>0 \right\} }\left( \lambda_0 \mathcal{L}_B+\lambda_1 \mathcal{L}_D \right)$$    
 
