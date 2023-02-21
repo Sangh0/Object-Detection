@@ -4,7 +4,8 @@
 - [YOLO (CVPR 2016)](https://github.com/Sangh0/Object-Detection/tree/main/YOLO)  
 - [RetinaNet (ICCV 2017)](https://github.com/Sangh0/Object-Detection/tree/main/RetinaNet)  
 - [DETR (ECCV 2020)](https://github.com/Sangh0/Object-Detection/tree/main/DETR)  
-- [Generalized Focal Loss (NeurIPS 2020)](https://github.com/Sangh0/Object-Detection/tree/main/Generalized-FocalLoss)  
+- [Generalized Focal Loss (NeurIPS 2020)](https://github.com/Sangh0/Object-Detection/tree/main/Generalized-FocalLoss) 
+- [Distance-IoU Loss (AAAI 2020)](https://arxiv.org/abs/1911.08287)   
 - [VarifocalNet (CVPR 2021)](https://github.com/Sangh0/Object-Detection/tree/main/VarifocalNet)  
   
 ### What is Object Detection?  
