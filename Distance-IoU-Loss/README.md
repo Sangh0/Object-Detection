@@ -10,3 +10,4 @@ $$\mathcal{L_{DIoU}}=1-IoU+\frac{\rho^2\left(\textbf{b}, \textbf{b}^{gt}\right)}
 - form:
 $$\mathcal{L_{CIoU}}=1-IoU+\frac{\rho^2\left(\textbf{b}, \textbf{b}^{gt}\right)}{c^2}+\alpha v$$  
     - where $v=\frac{4}{\pi^2}\left(arctan \frac{w^{gt}}{h^{gt}}-arctan \frac{w}{h}\right)^2$, $\alpha=\frac{v}{\left(1-IoU\right)+v}$
+    - $\alpha$ is positive trade-off parameter, and $v$ measures the consistency of aspect ratio  
