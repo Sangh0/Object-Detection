@@ -3,6 +3,7 @@
 ### Varifocal Loss
 - [[code implementation](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/varifocal_loss.py)]
 - form:  
+
 $$VFL(p,q)=
 \begin{cases}
 -q\left(q log\left(p\right)+\left(1-q\right) log\left(1-p\right)\right), & \mbox{if }q>0\mbox{ positive sample} \\
