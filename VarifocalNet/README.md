@@ -17,3 +17,9 @@ $$f(n)=
 n/2, & \mbox{if }n\mbox{ is even} \\
 3n+1, & \mbox{if }n\mbox{ is odd}
 \end{cases}$$
+
+$$VFL(p,q)=
+\begin{cases}
+-q\left(q log\left(p\right)+\left(1-q\right) log\left(1-p\right)\right), & \mbox{if }q>0\mbox{ positive sample} \\
+-\alpha p^{\gamma}log\left(1-p\right), & \mbox{if }q=0\mbox{ negative sample}
+\end{cases}$$
