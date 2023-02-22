@@ -5,8 +5,8 @@
 - form:  
 $$VFL\left(p,q\right)=
 \begin{cases}
--q\left(qlog\left(p\right)+\left(1-q\right)log\left(1-p\right)\right) \\ 
--\alpha p^{\gamma}log\left(1-p\right) 
+-q\left(q log\left(p\right)+\left(1-q\right) log\left(1-p\right)\right), & \mbox{if } q>0 \mbox{(positive sample)}\\ 
+-\alpha p^{\gamma}log\left(1-p\right), & \mbox{if } q=0, \mbox{(negative sample)} 
 \end{cases}$$  
     - where $p$ is the predicted IACS and $q$ is the target score  
     - For a foreground point, $q$ for its ground truth class is set as the IoU between the predicted box and its ground truth and $0$ otherwise, whereas for a background point, the target $q$ for all classes is $0$  
