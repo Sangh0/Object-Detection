@@ -5,8 +5,9 @@
 - [RetinaNet (ICCV 2017)](https://github.com/Sangh0/Object-Detection/tree/main/RetinaNet)  
 - [DETR (ECCV 2020)](https://github.com/Sangh0/Object-Detection/tree/main/DETR)  
 - [Generalized Focal Loss (NeurIPS 2020)](https://github.com/Sangh0/Object-Detection/tree/main/Generalized-FocalLoss) 
-- [Distance-IoU Loss (AAAI 2020)](https://arxiv.org/abs/1911.08287)   
+- [Distance-IoU Loss (AAAI 2020)](https://github.com/Sangh0/Object-Detection/tree/main/Distance-IoU-Loss)   
 - [VarifocalNet (CVPR 2021)](https://github.com/Sangh0/Object-Detection/tree/main/VarifocalNet)  
+- [Distilling Object Detector (CVPR 2019)](https://github.com/Sangh0/Object-Detection/tree/main/Distilling-Object-Detectors)
   
 ### What is Object Detection?  
 <img src = "https://kr.mathworks.com/discovery/object-detection/_jcr_content/mainParsys3/discoverysubsection/mainParsys3/image.adapt.full.medium.jpg/1639059373547.jpg">  
