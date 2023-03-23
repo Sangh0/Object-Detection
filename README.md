@@ -8,6 +8,7 @@
 - [Distance-IoU Loss (AAAI 2020)](https://github.com/Sangh0/Object-Detection/tree/main/Distance-IoU-Loss)   
 - [VarifocalNet (CVPR 2021)](https://github.com/Sangh0/Object-Detection/tree/main/VarifocalNet)  
 - [Distilling Object Detector (CVPR 2019)](https://github.com/Sangh0/Object-Detection/tree/main/Distilling-Object-Detectors)
+- [YOLOv7 (arxiv)](https://github.com/Sangh0/Object-Detection/tree/main/YOLOv7)
   
 ### What is Object Detection?  
 <img src = "https://kr.mathworks.com/discovery/object-detection/_jcr_content/mainParsys3/discoverysubsection/mainParsys3/image.adapt.full.medium.jpg/1639059373547.jpg">  
