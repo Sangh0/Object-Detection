@@ -2,18 +2,15 @@
 
 ### General Focal Loss
 - [[paper](https://arxiv.org/abs/1708.02002)]
-- [[code implementation](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/focal_loss.py)]
 - form:  
 $$FL\left(p_t\right)=-\alpha\left(1-p_t\right)^{\gamma}\log\left(p_t\right)$$  
 
 ### Code Implementation  
 **Quality Focal Loss**  
-- [[code implementation](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/qfocal.py)]
 - form:  
 $$QFL\left(\sigma\right)=-\vert y-\sigma\vert^{\beta}\left(\left(1-y\right)\log\left(1-\sigma\right)+y\log\left(\sigma\right)\right)$$  
 
 **Distribution Focal Loss**  
-- [[code implementation](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/dfocal.py)]  
 - form:
 $$DFL\left(S_i, S_{i+1}\right)=-\left(\left(y_{i+1}-y\right)\log\left(S_i\right)+\left(y-y_i\right)\log\left(S_{i+1}\right)\right)$$  
 
