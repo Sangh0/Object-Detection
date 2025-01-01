@@ -5,7 +5,6 @@
 - form:  
 $$FL\left(p_t\right)=-\alpha\left(1-p_t\right)^{\gamma}\log\left(p_t\right)$$  
 
-### Code Implementation  
 **Quality Focal Loss**  
 - form:  
 $$QFL\left(\sigma\right)=-\vert y-\sigma\vert^{\beta}\left(\left(1-y\right)\log\left(1-\sigma\right)+y\log\left(\sigma\right)\right)$$  
